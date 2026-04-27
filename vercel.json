@@ -2,6 +2,14 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/api/index.js"
+    },
+    {
       "source": "/(health|generate-email|generate-email-from-apollo)",
       "destination": "/api/index.js"
     }
