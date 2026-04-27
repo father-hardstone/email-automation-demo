@@ -1,0 +1,19 @@
+{
+  "leads": [
+    {
+      "id": "lead_001",
+      "name": "Endy Butigian",
+      "detail": "Legal Intern at Saint Leo University (legal department). Interested in practical legal research exposure.",
+      "field": "Legal",
+      "email": "endy.butigian@saintleo.edu"
+    },
+    {
+      "id": "lead_002",
+      "name": "Elizabeth Hansen",
+      "detail": "Legal Intern at Marquette University. Interested in research assistance and applied legal studies.",
+      "field": "Legal",
+      "email": "e.hansen@marquette.edu"
+    }
+  ]
+}
+

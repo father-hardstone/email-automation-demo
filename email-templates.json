@@ -1,0 +1,89 @@
+{
+    "meta": {
+      "project": "Legal Outreach Email Automation System",
+      "version": "1.0",
+      "description": "Structured outbound email templates for legal education outreach, collaboration, internships, and research partnerships."
+    },
+  
+    "templates": [
+      {
+        "id": "cold_intro_student",
+        "goal": "initial_contact",
+        "tone": "professional_friendly",
+        "subject": "Opportunities in legal research & collaboration",
+        "body": "Dear {{name}},\n\nI hope you're doing well.\n\nWe are currently reaching out to law students interested in gaining practical exposure through structured legal research and collaborative initiatives.\n\nBased on your background in {{field}}, we believe there may be alignment with upcoming opportunities involving research assistance and case-based learning.\n\nIf this sounds interesting, we would be glad to share more details.\n\nBest regards,\nLegal Outreach Team"
+      },
+  
+      {
+        "id": "cold_intro_faculty",
+        "goal": "academic_collaboration",
+        "tone": "formal_respectful",
+        "subject": "Academic collaboration in legal research initiatives",
+        "body": "Dear Professor {{name}},\n\nWe hope this message finds you well.\n\nWe are exploring structured legal research initiatives aimed at bridging academic legal education with practical exposure.\n\nWe would be honored to explore potential collaboration in areas such as student mentorship, research guidance, and applied legal studies.\n\nGiven your expertise in {{field}}, we would greatly value your perspective.\n\nSincerely,\nLegal Research Team"
+      },
+  
+      {
+        "id": "cold_intro_professional",
+        "goal": "professional_outreach",
+        "tone": "formal_neutral",
+        "subject": "Collaboration opportunity in legal initiatives",
+        "body": "Dear {{name}},\n\nI hope you're doing well.\n\nWe are currently engaging legal professionals in collaborative initiatives focused on research support and applied legal analysis.\n\nGiven your experience in {{field}}, we believe there may be potential alignment for future collaboration.\n\nWe would appreciate the opportunity to connect.\n\nKind regards,\nLegal Outreach Team"
+      },
+  
+      {
+        "id": "internship_offer",
+        "goal": "internship_recruitment",
+        "tone": "professional_encouraging",
+        "subject": "Legal internship opportunity in research & analysis",
+        "body": "Dear {{name}},\n\nWe are currently offering structured internship opportunities for law students focused on legal research, drafting, and analytical case work.\n\nThis program is designed to bridge academic learning with practical legal exposure.\n\nGiven your interest in {{field}}, we would like to invite you to explore this opportunity further.\n\nLooking forward to your response,\nLegal Internship Program Team"
+      },
+  
+      {
+        "id": "research_collaboration",
+        "goal": "research_partnership",
+        "tone": "academic_formal",
+        "subject": "Invitation to collaborate on legal research initiative",
+        "body": "Dear {{name}},\n\nWe are currently developing collaborative legal research initiatives involving students, academics, and practitioners.\n\nThe goal is to contribute to structured research output in areas such as case law analysis and legal policy exploration.\n\nWe believe your background in {{field}} could be valuable to this initiative.\n\nWe would be glad to discuss this further.\n\nSincerely,\nLegal Research Division"
+      },
+  
+      {
+        "id": "follow_up_1",
+        "goal": "follow_up",
+        "tone": "neutral_professional",
+        "subject": "Following up on collaboration opportunity",
+        "body": "Dear {{name}},\n\nI hope you're doing well.\n\nI wanted to follow up on my previous message regarding potential collaboration opportunities in legal initiatives.\n\nWe would still be happy to share more details if this is of interest.\n\nKind regards,\nLegal Outreach Team"
+      },
+  
+      {
+        "id": "value_explanation",
+        "goal": "value_building",
+        "tone": "informative_professional",
+        "subject": "Expanding practical legal exposure opportunities",
+        "body": "Dear {{name}},\n\nWe are building structured initiatives designed to provide law students and emerging professionals with real-world legal exposure.\n\nThis includes research tasks, case analysis, and collaborative legal projects aimed at bridging theory with practice.\n\nIf this aligns with your interests, we would be glad to involve you.\n\nBest regards,\nLegal Outreach Team"
+      },
+  
+      {
+        "id": "partnership_pitch",
+        "goal": "strategic_partnership",
+        "tone": "strategic_formal",
+        "subject": "Exploring legal education collaboration opportunities",
+        "body": "Dear {{name}},\n\nWe are currently exploring partnerships in legal education and applied legal research initiatives.\n\nOur focus is on creating structured collaboration between academic institutions and practical legal environments.\n\nGiven your profile in {{field}}, we would welcome the opportunity to explore alignment.\n\nSincerely,\nLegal Partnerships Team"
+      },
+  
+      {
+        "id": "follow_up_final",
+        "goal": "final_follow_up",
+        "tone": "polite_closing",
+        "subject": "Final follow-up regarding collaboration",
+        "body": "Dear {{name}},\n\nThis is a final follow-up regarding our previous outreach.\n\nIf this is not a priority at the moment, we completely understand.\n\nWe remain open to connecting in the future if relevant.\n\nWishing you all the best,\nLegal Outreach Team"
+      },
+  
+      {
+        "id": "light_engagement",
+        "goal": "soft_engagement",
+        "tone": "friendly_professional",
+        "subject": "Quick note on legal collaboration initiative",
+        "body": "Dear {{name}},\n\nI hope you're doing well.\n\nI wanted to briefly share that we are currently developing legal collaboration initiatives involving students and professionals for applied legal learning and research.\n\nIf this is something that interests you, we would be happy to share more information.\n\nKind regards,\nLegal Outreach Team"
+      }
+    ]
+  }

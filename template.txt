@@ -1,0 +1,10 @@
+Write an outreach email using this structure:
+
+1) Greeting using the lead's name.
+2) One sentence referencing the lead detail (do not exaggerate).
+3) Brief value proposition: we build simple automations that save time.
+4) One clear call-to-action: ask for a 10–15 minute chat this week.
+5) Sign off.
+
+Do not include placeholders like {{name}} in the final email. Use the lead data directly.
+

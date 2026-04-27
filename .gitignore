@@ -1,0 +1,17 @@
+## dependencies
+node_modules/
+
+## env files
+.env
+.env.*
+!.env.example
+
+## local state files (sequential lead pointers)
+.lead-state.json
+.apollo-lead-state.json
+
+## logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
