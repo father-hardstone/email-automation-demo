@@ -1,5 +1,15 @@
 {
   "version": 2,
+  "functions": {
+    "api/index.js": {
+      "includeFiles": [
+        "leads.json",
+        "email-templates.json",
+        "template.txt",
+        "apollo-contacts-export.csv"
+      ]
+    }
+  },
   "rewrites": [
     {
       "source": "/",

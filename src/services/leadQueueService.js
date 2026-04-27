@@ -31,7 +31,12 @@ async function pickNextLead(leads, { stateFile = DEFAULT_STATE_FILE } = {}) {
   const lead = leads[safeIdx];
   const nextIndex = safeIdx + 1;
 
-  await writeState(statePath, { nextIndex });
+  try {
+    await writeState(statePath, { nextIndex });
+  } catch {
+    // On serverless platforms the filesystem may be read-only or non-persistent.
+    // Sequential selection will still work within the current invocation.
+  }
 
   return { lead, pickedIndex: safeIdx, nextIndex, stateFile };
 }
