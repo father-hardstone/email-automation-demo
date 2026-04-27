@@ -105,10 +105,6 @@ Example URLs:
 
 ## Important notes
 - **Email sending is a stub**: this project generates email content only (no SMTP/provider integration yet).
-- **Serverless queue caveat (Vercel)**: sequential lead picking uses local state files (e.g. `.lead-state.json`).
-  - This is fine locally.
-  - On Vercel serverless, local disk is not a reliable place to store state across invocations.
-  - For production, store the pointer in a durable store (e.g. Vercel KV / Redis / DB).
 
 ## Deploy to Vercel (serverless)
 This repo includes `vercel.json` and `api/index.js`.
