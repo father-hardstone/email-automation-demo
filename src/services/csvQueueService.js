@@ -27,7 +27,11 @@ async function pickNextFromList(items, { stateFile = DEFAULT_STATE_FILE } = {}) 
   const item = items[safeIdx];
   const nextIndex = safeIdx + 1;
 
-  await writeState(statePath, { nextIndex });
+  try {
+    await writeState(statePath, { nextIndex });
+  } catch {
+    // On serverless platforms the filesystem may be read-only or non-persistent.
+  }
 
   return { item, pickedIndex: safeIdx, nextIndex, stateFile };
 }
